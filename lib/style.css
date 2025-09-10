@@ -1,0 +1,111 @@
+/* lib/style.css */
+
+body {
+  background-color: #ffffff; /* Белый фон для страницы */
+}
+
+.login-container {
+  max-width: 300px;
+  margin: 100px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.error-message {
+  color: red;
+}
+
+.table-light {
+  background-color: #7e57c2;
+}
+
+.btn-outline-light {
+  color: white;
+  border-color: white;
+}
+
+.btn-outline-light:hover {
+  color: #7e57c2;
+  background-color: white;
+}
+
+.table-bordered td,
+.table-bordered th {
+  border: 1px solid #7e57c2;
+}
+
+.bg-secondar {
+  background-color: #d32f2f;
+}
+
+.bg-light {
+  background-color: #cfd8dc;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border-radius: 12px; /* Закругленные углы */
+  overflow: hidden; /* Чтобы закругление применялось корректно */
+  margin: 20px 0; /* Отступы сверху и снизу */
+}
+
+table th,
+table td {
+  padding: 12px; /* Увеличенное пространство между текстом */
+  text-align: left;
+}
+
+table th {
+  background-color: #f2f2f2; /* Светлый фон для заголовков */
+}
+
+table tr:nth-child(even) {
+  background-color: #f9f9f9; /* Светлый фон для четных строк */
+}
+
+table tr:nth-child(odd) {
+  background-color: #ffffff; /* Белый фон для нечетных строк */
+}
+
+table button.btn {
+  border: none; /* Убираем границы у кнопок */
+  background: none; /* Убираем фон у кнопок */
+  padding: 0;
+  cursor: pointer;
+}
+
+table button.btn i {
+  font-size: 20px; /* Размер иконок */
+}
+
+/* Стили для кнопок в шапке */
+.header-buttons {
+  background-color: #ffffff; /* Белый фон */
+  color: #000000; /* Черный текст */
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* DropShadow 4 */
+  border-radius: 5px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+.header-buttons:hover {
+  background-color: #f2f2f2; /* Светлый фон при наведении */
+}
+
+.header {
+  background-color: #c5aff8; /* Цвет шапки как текущий бекграунд */
+  padding: 20px;
+  text-align: right;
+}
+
+.content-order {
+  width: 80%;
+  background-color: #c5aff8;
+  border-radius: 12px;
+}
